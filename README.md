@@ -1,27 +1,74 @@
-# App-sensor-coletor
-Em desenvolvimento: 
+Android application for collecting data from smartphone sensors.
+The collected data are: Accelerometer, Gyroscope, Magnetometer and GPS.
+The app generates a CSV file for each sensor.
 
-1 - registrar apenas sensores que usuário marcar;
+Android application developed for academic purposes.
 
-2 - adicionar intervalo de tempo para leitura de cada sensor.
+Student: Jean Patrick Hartmann
+
+Advising Professor: Ph.D João Elison da Rosa Tavares
+
+Institution: Universidade do Vale do Rio dos Sinos
+
+Date: 2022-10-17
 
 
-#2022-08-26
 
-Permite ao usuário selecionar apenas sensores que tem ativo no dispositivo;
+[Portuguese version]
 
-Adicionado intervalo de tempo padrão do android
+Aplicativo Android para coleta de dados de sensores do smartphone.
+Os dados coletados são: Acelerômetro, Giroscópio, Magnetômetro e GPS.
+O aplicativo gera um arquivo CSV para cada sensor.
 
-SENSOR_DELAY_NORMAL 	= 200.000 microssegundos = 200 ms
+Aplicativo Android desenvolvido para fim acadêmico.
 
-SENSOR_DELAY_UI              	= 60.000 microssegundos   =  60 ms
+Aluno: Jean Patrick Hartmann
 
-SENSOR_DELAY_GAME      	= 20.000 microssegundos   =  20 ms
+Professor orientador: Ph.D João Elison da Rosa Tavares
 
-SENSOR_DELAY_FASTEST	= 0 microssegundo	             =  0 ms
+Instituição: Universidade do Vale do Rio dos Sinos
 
-##Pendentes##
+Data: 17/10/2022
 
-1-Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q  não está funcionando a coleta
+Project prototype 1
 
-Build.VERSION_CODES.Q = Build  ===== API LEVEL 29
+![image](https://user-images.githubusercontent.com/32403781/196273777-34287e0a-35b9-41d4-bc9e-040e116dc4c6.png)
+
+Project prototype 2
+
+![image](https://user-images.githubusercontent.com/32403781/196274561-4b78ad3f-7102-48d2-9b11-1a4300db7b63.png)
+
+
+
+
+System first screen
+
+![image](https://user-images.githubusercontent.com/32403781/196269794-cedc428c-749b-4e3c-a3c8-8eac62ef58d7.png)
+
+
+System second screen - which sensor the system will activate
+
+![image](https://user-images.githubusercontent.com/32403781/196271076-5db2e754-42d1-4d69-8124-7b6079c17661.png)
+
+
+System third screen - data collecting is not running
+
+![image](https://user-images.githubusercontent.com/32403781/196270186-945df115-9df8-4ab3-80c2-8905b61490cf.png)
+
+
+System fourth screen - data collecting is running
+
+![image](https://user-images.githubusercontent.com/32403781/196271480-269e2866-7598-418d-be55-e7afd628f068.png)
+
+
+
+
+
+
+When using this resource, please cite:
+
+Hartmann, Jean; Tavares, João (2022). Apollo Smart Walker: Um Modelo Baseado em IoT e Inteligência Artificial para Monitoramento da Caminhada de Idosos que Utilizam Andadores.
+
+
+
+
