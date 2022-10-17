@@ -43,22 +43,25 @@ Project prototype 2
 
 System first screen
 
-![image](https://user-images.githubusercontent.com/32403781/196269794-cedc428c-749b-4e3c-a3c8-8eac62ef58d7.png)
+![image](https://user-images.githubusercontent.com/32403781/196304551-7bf47a45-f5f0-4ba0-b739-72ad97110e54.png)
+
 
 
 System second screen - which sensor the system will activate
 
-![image](https://user-images.githubusercontent.com/32403781/196271076-5db2e754-42d1-4d69-8124-7b6079c17661.png)
+![image](https://user-images.githubusercontent.com/32403781/196304529-cbbf3ca4-4c08-4074-8fb3-fb2753408fd2.png)
+
 
 
 System third screen - data collecting is not running
 
-![image](https://user-images.githubusercontent.com/32403781/196270186-945df115-9df8-4ab3-80c2-8905b61490cf.png)
+![image](https://user-images.githubusercontent.com/32403781/196304691-6f2e5e48-6b6c-42ad-8dd5-087439a87e09.png)
+
 
 
 System fourth screen - data collecting is running
 
-![image](https://user-images.githubusercontent.com/32403781/196271480-269e2866-7598-418d-be55-e7afd628f068.png)
+![image](https://user-images.githubusercontent.com/32403781/196304760-5f8deea0-6271-4c77-aadf-a17953da0a81.png)
 
 
 
