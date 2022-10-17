@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CheckListActivity"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <Button
+        android:id="@+id/buttonIniciar"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:gravity="center"
+        android:onClick="abrirTerceiraTela"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switchLocalizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:minHeight="55dp"
+        android:text="Location"
+        app:layout_constraintStart_toStartOf="@+id/switchMagnetometro"
+        app:layout_constraintTop_toBottomOf="@+id/switchMagnetometro" />
+
+    <Switch
+        android:id="@+id/switchAcelerometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:minHeight="55dp"
+        android:text="Accelerometer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchGiroscopio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:minHeight="55dp"
+        android:text="Gyroscope"
+        app:layout_constraintStart_toStartOf="@+id/switchAcelerometro"
+        app:layout_constraintTop_toBottomOf="@+id/switchAcelerometro" />
+
+    <Switch
+        android:id="@+id/switchMagnetometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:minHeight="55dp"
+        android:text="Magnetometer"
+        app:layout_constraintStart_toStartOf="@+id/switchGiroscopio"
+        app:layout_constraintTop_toBottomOf="@+id/switchGiroscopio" />
+
+    <Spinner
+        android:id="@+id/spinner_acelerometro"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:minHeight="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toEndOf="@+id/switchAcelerometro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_gyroscopio"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:minHeight="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toEndOf="@+id/switchGiroscopio"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_acelerometro" />
+
+    <Spinner
+        android:id="@+id/spinner_magnetometro"
+        android:layout_width="157dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:minHeight="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toEndOf="@+id/switchMagnetometro"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_gyroscopio" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="324dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:text="SENSOR_DELAY_NORMAL = 200 ms
+            \n\nSENSOR_DELAY_UI = 60 ms
+            \n\nSENSOR_DELAY_GAME = 20 ms
+            \n\nSENSOR_DELAY_FASTEST = 0 ms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchLocalizacao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
