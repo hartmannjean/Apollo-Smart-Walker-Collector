@@ -314,11 +314,11 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
                 }*/
                 if (sensorEvent.sensor.getType() == sensores.TYPE_MAGNETIC_FIELD) {
                     txtmag.setText("Magnetometer (Collecting)");
-                    outputWritermag.append(
-                            "2;"
-                                    .concat(String.valueOf(sensorEvent.values[0])).concat(";")
-                                    .concat(String.valueOf(sensorEvent.values[1])).concat(";")
-                                    .concat(String.valueOf(sensorEvent.values[2])).concat(";")
+                    outputWritermag.append(String.valueOf(sensorEvent.timestamp).concat(";")
+                            .concat("2;")
+                            .concat(String.valueOf(sensorEvent.values[0])).concat(";")
+                            .concat(String.valueOf(sensorEvent.values[1])).concat(";")
+                            .concat(String.valueOf(sensorEvent.values[2])).concat(";")
                     );
                     outputWritermag.append("\n");
                     outputWritermag.flush();
@@ -335,11 +335,11 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
                     }*/
                 if (sensorEvent.sensor.getType() == sensores.TYPE_GYROSCOPE) {
                     txtgyr.setText("Gyroscope (Collecting)");
-                    outputWritergyr.append(
-                            "3;"
-                                    .concat(String.valueOf(sensorEvent.values[0])).concat(";")
-                                    .concat(String.valueOf(sensorEvent.values[1])).concat(";")
-                                    .concat(String.valueOf(sensorEvent.values[2])).concat(";")
+                    outputWritergyr.append(String.valueOf(sensorEvent.timestamp).concat(";")
+                            .concat("2;")
+                            .concat(String.valueOf(sensorEvent.values[0])).concat(";")
+                            .concat(String.valueOf(sensorEvent.values[1])).concat(";")
+                            .concat(String.valueOf(sensorEvent.values[2])).concat(";")
 
                     );
                     outputWritergyr.append("\n");
